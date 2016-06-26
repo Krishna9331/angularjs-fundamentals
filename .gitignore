@@ -1,0 +1,40 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+
+#sass
+/.sass-cache
+
+# dependencies
+bower_components/*
+/node_modules
+
+# misc
+/.idea
+/.sonar
+npm-debug.log
+
+# Report tools
+/test_results/*
+/coverage/*
+/screenshots/e2e
+
+# Dist folder
+/dist
+atlassian-ide-plugin.xml
+
+# gradle/sts folder
+.project
+.classpath
+.gradle/
+.settings/
+build/
+target/
+*/bin/
+gradle/
+
+*.iml
+css/app.css
+
+# New Relic
+newrelic_agent.log
